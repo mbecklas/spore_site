@@ -2,13 +2,14 @@ table,
       th,
       td {
         padding: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(224, 10, 10);
         border-collapse: collapse;
       }
 body{
     background-image: url('https://img.freepik.com/free-vector/star-sky-space-stars-background-glitter-particles_160081-317.jpg');
 text-align: center;
 font-family:"Inconsolata", monospace;
+font-size: 200%;
 }
 h2{
     color:rgb(127,255,212);
