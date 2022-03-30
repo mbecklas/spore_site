@@ -2,7 +2,7 @@ table,
       th,
       td {
         padding: 10px;
-        border: 1px solid rgb(224, 10, 10);
+        border: 1.5px solid rgb(224, 10, 10);
         border-collapse: collapse;
       }
 body{
@@ -19,6 +19,7 @@ h2{
 
 table{
     text-align: center;
+	color: rgb(50,250,50)
 }
  
 h1{
