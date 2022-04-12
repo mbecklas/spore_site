@@ -1,40 +1,72 @@
+/* code added for stages.html */
+
+#general_stages_page{
+	color:rgb(247, 212, 221);
+}
+
+#stages_main_title{
+	color:rgb(247, 212, 221); 
+	font-size:30px;
+}
+
+#stages_intro{
+	font-size: 25px;
+}
+
+/* Center-align the numbers in the ordered list at the beginning of the stages page */
+.stages{
+	list-style-position: inside; 
+	color:rgb(247, 212, 221);
+	font-size: 30px;
+}
+
+.stages_lines{
+	color:rgb(247, 212, 221); 
+	font-size: 18px;  
+}
+
+.stage_title{
+	font-size: 30px;
+	text-align: center; 
+}
+
+.stage_description{
+	font-size: 20px;
+	margin-right: 35px; 
+	margin-top: 35px; 
+}
+
+.stage_img{
+	border: 10px ridge rgb(247, 212, 221);
+	position: relative;
+	float:left;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: 10px;
+}
+
+/* */
+
 table,
       th,
       td {
         padding: 10px;
-        border: 1.5px solid rgb(224, 10, 10);
+        border: 1px solid black;
         border-collapse: collapse;
       }
 body{
     background-image: url('https://img.freepik.com/free-vector/star-sky-space-stars-background-glitter-particles_160081-317.jpg');
 text-align: center;
 font-family:"Inconsolata", monospace;
-font-size: 200%;
 }
+
 h2{
-    color:rgb(127,255,212);
-    text-align: center;
+    text-align: center; 
 }
 
 
 table{
     text-align: center;
-	color: rgb(50,250,50)
-}
- 
-h1{
- color:rgb(150, 0, 255);
- font-size:50px;
-}
-#subtitle{
-color:rgb(127,255,212);
-}
-p{
-color:rgb(83, 202, 146);
-font-size:65%;
-}
-#especial{
-font-size:50%;
 }
 
 #image-edition{
@@ -101,7 +133,7 @@ nav .start-home, a:nth-child(1):hover~.animation {
 nav .start-about, a:nth-child(2):hover~.animation {
 	width: 110px;
 	left: 100px;
-	background-color: #e74c3c;
+	background-color: rgb(228, 67, 67);
 }
 nav .start-blog, a:nth-child(3):hover~.animation {
 	width: 100px;
