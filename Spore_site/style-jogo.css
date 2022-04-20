@@ -35,7 +35,12 @@
 	margin-right: 35px; 
 	margin-top: 35px; 
 }
-
+.evolution{
+	color:rgb(247, 212, 221)
+}
+.table1{
+	color:rgb(247, 212, 221)
+}
 .stage_img{
 	border: 10px ridge rgb(247, 212, 221);
 	position: relative;
@@ -44,16 +49,67 @@
 	margin-right: 35px;
 	margin-top: 10px;
 }
+/* code for Gameplay */
+.my {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 18px;
+	color:rgb(247,212,221);
+}
 
+.why {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    line-height: 18px;
+	color:rgb(247,212,221);
+}
+
+
+#gameplay-img2 {
+    float: right;
+    margin: 15px;
+    border: ridge grey 10px
+}
+
+#my_title {
+    font-size: 38px
+	color:rgb(247,212,221);
+}
+/* code for home/summary */
+#general_home_page{
+	color:rgb(247, 212, 221);
+}
+
+#image_edition{
+	border: 10px ridge rgb(247, 212, 221);
+	margin-left: auto;
+	margin-right: auto;
+}
+.bodyp{
+	font-size: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 35px; 
+	width:80%;
+}
 /* */
 
 table,
       th,
       td {
+		vertical-align: center;
         padding: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(247, 212, 221);
         border-collapse: collapse;
       }
+	  .center {
+		margin-left: auto;
+		margin-right: auto;
+	  }
 body{
     background-image: url('https://img.freepik.com/free-vector/star-sky-space-stars-background-glitter-particles_160081-317.jpg');
 text-align: center;
