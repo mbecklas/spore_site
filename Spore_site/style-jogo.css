@@ -1,3 +1,23 @@
+/*code for special*/
+
+#video{
+	align-items: center;
+	margin-top: 7%;
+	margin-bottom: 7%;
+}
+
+#buythegame{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 30px;
+	color:rgb(255, 255, 255) ;
+	width: 200px;
+	background-color: #1abc9c;
+	margin: auto;
+	border-radius: 8px;
+}
+
+
 /* code added for stages.html */
 
 #general_stages_page{
